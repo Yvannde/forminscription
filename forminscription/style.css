@@ -1,0 +1,127 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url("assets/télécharger.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.container{
+    height: 500px;
+    width: 400px;
+    position: absolute;
+    left: 40px;
+    top: 150px;
+    z-index: 999999;
+    background-color: rgb(206, 203, 203);
+    opacity: 0.8;
+    border-radius: 10px;
+    padding: 40px;
+}
+.container .logo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.container .logo h1{
+    font-size: 20px;
+}
+.container .logo p{
+    color: blue;
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+.container .title{
+    text-align: center;
+    margin-top: 30px;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.container .btn-signin{
+    margin-bottom: 20px;
+}
+.container .btn-signin button:nth-child(1){
+    border: none;
+    background-color: rgb(235, 148, 241);
+    width: 80%;
+    height: 35px;
+    border-radius: 7px;
+    color: white;
+    opacity: 1;
+    font-size: 16px;
+
+}
+.container label{
+    font-size: 13px;
+}
+.container form :is(input[type=email],input[type=password]){
+    border: none;
+    height: 40px;
+    width: 100%;
+    border-radius: 5px;
+    padding-left: 5px;
+    margin-top: 5px;
+    background-color: white;
+    outline: blue;
+}
+.container .forgot{
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px 0;
+}
+.container .forgot p:nth-child(2){
+color: blue;
+}
+.container button[type=submit]{
+    margin-top: 30px;
+    border: none;
+    height: 40px;
+    width: 30%;
+    background-color: black;
+    color: white;
+    border-radius: 7px;
+}
+.slug{
+    position: absolute;
+    left: 370px;
+    top: 100px;
+    height: 130px;
+    width: 130px;
+    background-color:darkorchid;
+    border-radius: 8px;
+    opacity: 0.7;
+    box-shadow: 50px 8px 32px 0 rgba(216, 36, 156, 0.37);
+    z-index: -1;
+}
+.slug1{
+    position: absolute;
+    left: -40px;
+    bottom: -80px;
+    height: 130px;
+    width: 130px;
+    background-color:darkorchid;
+    border-radius: 8px;
+    opacity: 0.5;
+    box-shadow: 50px 8px 32px 0 rgba(216, 36, 156, 0.37);
+    z-index: -1;
+}
+.slug2{
+    position: absolute;
+    left: 200px;
+    top: 300px;
+    height: 130px;
+    width: 130px;
+    background-color:darkorchid;
+    border-radius: 8px;
+    opacity: 1;
+    box-shadow: 50px 8px 32px 0 rgba(216, 36, 156, 0.37);
+    z-index: -1;
+}
