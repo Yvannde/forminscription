@@ -18,7 +18,7 @@ body{
     top: 150px;
     z-index: 999999;
     background-color: rgb(206, 203, 203);
-    opacity: 0.8;
+    opacity: 0.9;
     border-radius: 10px;
     padding: 40px;
 }
@@ -45,6 +45,9 @@ form{
 }
 .container .btn-signin{
     margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 .container .btn-signin button:nth-child(1){
     border: none;
@@ -56,6 +59,21 @@ form{
     opacity: 1;
     font-size: 16px;
 
+}
+.container .btn-signin button:nth-child(2){
+    border: none;
+    background-color: rgb(235, 148, 241);
+    width: 15%;
+    height: 35px;
+    border-radius: 7px;
+    color: white;
+    font-size: 16px;
+    padding: 5px;
+
+}
+.container .btn-signin button:nth-child(2) img{
+    height: 100%;
+    width: 100%;
 }
 .container label{
     font-size: 13px;
